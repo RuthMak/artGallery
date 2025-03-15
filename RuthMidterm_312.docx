@@ -1,0 +1,16 @@
+Mid-Term Project Integration Plan
+Web Design Tenet | Implementation
+GitHub and GitHub Pages | The project will be organized in a GitHub repository, structured with separate folders for images, CSS, and Less files. The project will be published using GitHub Pages to allow easy access. Flexbox and Effective Information Presentation | The "Gallery" page will feature a flex container with individual cards displaying artwork. Each card will contain an image of the artwork, title, and artist name, ensuring a clean and visually appealing layout. Using Advanced CSS Selectors |
+1.	Descendant selectors (nav ul li a) will ensure all text within the navigation menu is styled consistently.
+2.	Pseudo-class selectors (a:hover) will change the background color of menu items when hovered over.
+3.	Attribute selectors (input[type="text"]) will style input fields differently based on their types.
+4.	Child selectors (.sidebar > p) will specifically target immediate child elements in the sidebar.
+5.	First-child and last-child selectors (li:first-child, li:last-child) will style the first and last elements of lists uniquely.
+6.	nth-child selectors (tr:nth-child(even)) will be utilized for alternating background colors on list items.
+7.	Adjacent sibling selectors (h2 + p) will ensure proper spacing between paragraphs.
+8.	General sibling selectors (h1 ~ h2) will be used to style all headings after a main title.
+9.	Before and after pseudo-elements (h2::before, h2::after) will be used to add decorative content before and after section headers.
+10.	Hover effects on buttons (button:hover) will enhance the user experience by changing colors and borders dynamically.
+Interactive Flip-Cards in a Flex Container | The "Featured Artworks" section will include flip-cards. The front side will display an image of the artwork, while the flip side will show details such as the artist's name, year created, and a brief description. CSS transitions and transform: rotateY(180deg); will be used for the flip effect. Forms | The "Visit Us" page will include a form where users can input their planned visit dates. The form will feature a dropdown menu with available exhibition dates, text fields for contact information, and a submit button styled with CSS. Input focus effects (input:focus { border-color: blue; }) will enhance usability. Visual Techniques and Responsiveness | A favicon will be designed to match the artistic theme of the website. Font Awesome icons will be used for social media links and navigation buttons. A responsive hamburger menu will be implemented using CSS (display: none; @media (max-width: 768px) { .hamburger { display: block; } }) and JavaScript to toggle visibility. The layout will be fully responsive using @media queries. The Less CSS Pre-processor | Less will be used to maintain consistency across the project. Variables (@primary-color: #333;) will define font sizes, colors, and spacing. Mixins (.button-style() { padding: 10px; border-radius: 5px; }) will streamline repetitive CSS properties, and nested styles (nav { ul { li { a { color: white; } } } }) will improve code readability and maintainability.
+By integrating these elements, the mid-term project will demonstrate both technical proficiency and effective web design principles.
+
